@@ -171,7 +171,12 @@ h2{
 }
 
 
-
+.pied {
+    width: 1338px;
+    height: 330px;
+    background-color: rgba(205, 215, 219, 0.856);
+  
+}
 
 
 .carte {
