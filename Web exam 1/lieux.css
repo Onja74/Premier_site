@@ -1,0 +1,90 @@
+.ivato {
+    width: 1333px;
+    height: 720px;
+}
+.ville {
+    display: flex;
+    flex-direction: row;
+}
+.ville div{
+    padding: 20px;
+}
+.carl1{
+    width: 700px; height: 450px;
+}
+p{ font-family: cursive; font-size: larger;}
+h3{
+    font-family: cursive; color: rgb(0, 209, 209);
+}
+ 
+.parcs{
+    display: flex;
+    flex-direction: row;
+}
+.parcs div { padding: 20px;}
+.parc1{ width: 700px; height: 450px;}
+.rouva {
+    display: flex;
+    flex-direction: row;
+    
+}
+.rouva div { padding: 20px;
+}
+.louv1 { width: 700px; height: 450px;}
+
+
+@media screen  and (min-width: 300px) {
+    .carl1, .parc1, .louv1, .ivato, .foot{
+        width: 100%;
+        height: 280px;
+    }
+    .ville {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .rouva {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .parcs{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .foot{ 
+        text-align: center;
+    }
+}
+@media screen  and (min-width: 1058px) {
+    .ivato {
+        width: 1333px;
+        height: 620px;}
+        .carl1, .parc1, .louv1 {
+        width: 700px;
+        height: 400px;
+    }
+    .rouva {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .ville{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .parcs{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .foot {
+        width: 1224px;
+        height: 120px;
+        background-color: rgba(205, 215, 219, 0.856);
+        padding: 50px;
+        text-align: center;
+}
+}

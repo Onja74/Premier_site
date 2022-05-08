@@ -1,0 +1,95 @@
+.tete{ width: 1333px;
+    height: 720px; }
+  img {
+        width: 250px;
+        height: 190px;}
+.corps {
+    margin-left: 15%;
+    font-family: cursive;
+}
+.contenu {
+    display: flex;
+    flex-direction: row;
+  ;
+   
+}
+.contenu div{
+    padding: 30px;
+}
+
+
+.contenu2 {
+    display: flex;
+    flex-direction: row;
+}
+    .contenu2 div{
+        padding: 30px;
+    }  
+.contenu3 {
+        display: flex;
+        flex-direction: row;}
+       .contenu3 div {
+            padding: 30px;
+        }
+        @media screen  and (min-width: 300px) {
+            .tete {
+                width: 100%;
+                height: 320px;
+            }
+             .contenu {
+                display: flex;
+                flex-direction: column;   
+            }  
+            .contenu2 {
+                display: flex;
+                flex-direction: column;
+            }
+            .contenu3 {
+                display: flex;
+                flex-direction: column;}
+                img {
+                    width: 100%;
+                    height: 220px;
+                  text-align: center;}
+                  .resto {
+                      width: 100%;
+                      height: 280px;
+                      text-align: center;
+                      font-family: cursive;
+                  }
+        } 
+        @media screen  and (min-width: 1058px) {
+            .tete {
+                width: 1333px;
+                height: 620px;}
+                img {
+                    width: 250px;
+                    height: 190px;}
+                .contenu, .contenu2, .contenu3{
+                width: 700px;
+                height: 400px;
+            }
+            .contenu{
+                display: flex;
+                flex-direction: row;
+                
+            }
+            .contenu2 {
+                display: flex;
+                flex-direction: row;
+                
+            }
+            .contenu3 {
+                display: flex;
+                flex-direction: row;
+                
+            }
+            .resto {
+                width: 1240px;
+                height: 150px;
+                text-align: center;
+                font-family: cursive;
+                padding: 50px;
+                background-color: rgba(205, 215, 219, 0.856);
+            }
+        }

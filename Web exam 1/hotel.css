@@ -1,0 +1,79 @@
+
+.nuit {
+    width: 1203px;
+    height: 620px;}
+.carl {
+    display: flex;
+    flex-direction: row;
+}
+.carl div{
+    padding: 20px;
+}
+.carl1{
+    width: 700px; height: 450px;
+}
+p{ font-family: cursive; font-size: larger;}
+h3{
+    font-family: cursive; color: rgb(0, 209, 209);
+}
+.colb {
+    display: flex;
+    flex-direction: row;
+}
+.colb div { padding: 20px;}
+.colb1 { width: 700px; height: 450px;}
+.louv {
+    display: flex;
+    flex-direction: row;
+    
+}
+.louv div { padding: 20px;
+}
+.louv1 { width: 700px; height: 450px;}
+
+
+@media screen  and (min-width: 300px) {
+    .carl1, .colb1, .louv1, .nuit{
+        width: 100%;
+        height: 280px;
+    }
+    .carl {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .colb {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .louv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media screen  and (min-width: 1058px) {
+    .nuit {
+        width: 1333px;
+        height: 620px;}
+    .carl1, .colb1, .louv1{
+        width: 700px;
+        height: 400px;
+    }
+    .carl {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .colb {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .louv{
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
